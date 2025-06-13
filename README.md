@@ -1,15 +1,16 @@
 # Habitivity | Habit Tracker
 
-Habitivity is a straightforward habit tracker that doesn’t require registration. Easily mark your completed days, track your progress, and keep a journal for each habit.
+Habitivity adalah habit tracker yang dirancang untuk membantu pengguna membangun kebiasaan positif yang mendorong produktivitas dengan menyelesaikan task-task yang mereka buat sendiri. Aplikasi ini akan memberikan reward dan sistem leveling sebagai motivasi bagi pengguna untuk konsisten dalam mencapai tujuan mereka
 
-## 🗃️ Features
+## Cara run di device lokal
 
-- No registration required
-- Mark completed days
-- Track your progress
-- Maintain a journal for each habit
-- Achievements to motivate and celebrate your progress
+1. Ketik di terminal "npm install"
+2. Setelah berhasil install, ketik "npm start"
 
-## 📲 Usage
+## 🗃️ Fitur
 
-Habitivity is a Progressive Web App (PWA). To use it, simply visit the [website](link)
+- Tidak perlu registrasi
+- Membuat dan mengelola task-task harian.
+- Mendapatkan reward dan naik level ketika berhasil menyelesaikan task.
+- Memantau progres kebiasaan yang telah dibangun dengan statistik (laporan progress).
+- Meningkatkan motivasi melalui sistem gamifikasi (reward dan level-up).

@@ -1,0 +1,68 @@
+.bottomNavBar {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: var(--bottom-nav-height);
+  background-color: #ffffff;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0.5rem 0;
+  box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.2);
+  z-index: 100;
+}
+
+.icon {
+  font-size: 1.5rem;
+  color: #e6e6e6;
+  transition: color 0.2s;
+}
+
+.addIcon {
+  font-size: 2rem;
+  color: #5FE394;
+  transition: transform 0.2s;
+}
+
+.addIcon:hover {
+  transform: scale(1.1);
+}
+
+.active .icon {
+  color: #5FE394;
+}
+
+@media screen and (min-width: 576px) {
+  .bottomNavBar {
+    width: var(--app-width);
+    left: 50%;
+    transform: translateX(-50%);
+  }
+}
+
+.dark .bottomNavBar {
+  background: #ffffff;
+  border-top: 1px solid #ffffff;
+}
+.dark .icon, .dark .addIcon {
+  color: #bbb;
+}
+.dark .active .icon, .dark a.active .icon, .dark .active .addIcon, .dark a.active .addIcon {
+  color: #5FE394;
+  background: #23272f;
+}
+
+@media (prefers-color-scheme: dark) {
+  .bottomNavBar {
+    background: #ffffff;
+    border-top: 1px solid #ffffff;
+  }
+  .icon, .addIcon {
+    color: #bbb;
+  }
+  .active .icon, a.active .icon, .active .addIcon, a.active .addIcon {
+    color: #5FE394;
+    background: #ffffff;
+  }
+} 

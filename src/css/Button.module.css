@@ -1,0 +1,33 @@
+/* button */
+.button {
+	height: 2rem;
+	padding: 0 0.6rem;
+
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 0.4rem;
+
+	background-color: dodgerblue;
+	border-radius: var(--border-radius-secondary);
+	font-weight: bold;
+	cursor: pointer;
+	transition: opacity 0.2s;
+}
+
+/* icon */
+.button svg {
+	width: 1rem;
+	height: 1rem;
+}
+
+/* disabled */
+.button:disabled {
+	opacity: 0.5;
+	cursor: not-allowed;
+}
+
+.arrow {
+	color: gray;
+	margin-left: auto;
+}

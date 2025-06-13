@@ -1,0 +1,10 @@
+.appearance {
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+}
+
+.themeOptions {
+	display: flex;
+	gap: 1rem;
+}

@@ -1,0 +1,52 @@
+.mainPage {
+  position: relative;
+  min-height: 100vh;
+  padding-bottom: 90px; /* space for bottom nav */
+}
+
+.fab {
+  position: fixed;
+  left: 50%;
+  bottom: 88px;
+  transform: translateX(-50%);
+  background: #37C871;
+  color: #fff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(55,200,113,0.15);
+  z-index: 102;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  transition: background 0.2s;
+}
+.fab:hover {
+  background: #2ebd6b;
+}
+
+.fabRight {
+  position: fixed;
+  right: 1.5rem;
+  bottom: 88px;
+  background: #37C871;
+  color: #fff;
+  border-radius: 50%;
+  width: 56px;
+  height: 56px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 4px 16px rgba(55,200,113,0.15);
+  z-index: 102;
+  font-size: 2rem;
+  border: none;
+  outline: none;
+  transition: background 0.2s;
+}
+.fabRight:hover {
+  background: #2ebd6b;
+}

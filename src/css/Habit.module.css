@@ -1,0 +1,18 @@
+.habit {
+	/* position: relative; */
+	background: linear-gradient(135deg, #FFA450, #FF5C00);
+	border-radius: var(--border-radius-primary);
+	overflow: hidden;
+	font-weight: bold;
+	color: rgb(255, 255, 255);
+}
+
+.content {
+	padding: 0 0.6rem 0.6rem;
+}
+
+@media screen and (min-width: 576px) {
+	.habit {
+		flex: 0 0 calc((var(--app-width) / 2) - (1rem / 2));
+	}
+}

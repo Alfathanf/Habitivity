@@ -1,0 +1,42 @@
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.difficultyOption {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.5rem;
+    border-radius: var(--border-radius-primary);
+    background-color: var(--bg-color-primary);
+    cursor: pointer;
+    transition: background-color 0.2s;
+}
+
+.difficultyOption:hover {
+    background-color: var(--bg-color-secondary);
+}
+
+.difficultyOption input[type="radio"] {
+    width: 1.2rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.difficultyInfo {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex: 1;
+}
+
+.label {
+    font-weight: 500;
+}
+
+.xp {
+    color: #37C871;
+    font-weight: 600;
+} 

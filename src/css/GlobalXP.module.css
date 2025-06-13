@@ -1,0 +1,88 @@
+.globalXPBox {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 16px;
+    background: linear-gradient(135deg, #37C871, #5FE394);
+    border-radius: 12px;
+    box-shadow: 0 2px 8px #5FE394;
+    margin: 16px 0;
+    color: white;
+}
+
+.treeContainer {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.treeIcon {
+    font-size: 48px;
+}
+
+.levelBadge {
+    position: absolute;
+    bottom: -8px;
+    right: -8px;
+    min-width: 28px;
+    height: 28px;
+    border-radius: 14px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: white;
+    font-weight: bold;
+    font-size: 16px;
+    padding: 0 8px;
+}
+
+.xpInfo {
+    flex: 1;
+}
+
+.xpBar {
+    width: 100%;
+    height: 12px;
+    background-color: rgba(0, 0, 0, 0.1);
+    border-radius: 6px;
+    position: relative;
+    overflow: hidden;
+    margin-bottom: 8px;
+}
+
+.xpProgress {
+    height: 100%;
+    border-radius: 6px;
+    transition: width 0.3s ease;
+}
+
+.xpText {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.9);
+    font-weight: 500;
+}
+
+.xpDescription {
+    margin: 0;
+    font-size: 14px;
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.dark .globalXPBox {
+    background: linear-gradient(135deg, #37C871, #2ebd6b);
+    color: white;
+}
+.dark .xpBar {
+    background-color: rgba(255, 255, 255, 0.2);
+}
+.dark .xpText {
+    color: rgba(255, 255, 255, 0.9);
+}
+.dark .xpDescription {
+    color: rgba(255, 255, 255, 0.8);
+} 

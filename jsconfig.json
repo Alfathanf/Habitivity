@@ -1,0 +1,18 @@
+{
+	"compilerOptions": {
+		"baseUrl": "src",
+		"jsx": "react-jsx",
+		"module": "ESNext",
+		"moduleResolution": "node",
+		"resolveJsonModule": true,
+		"target": "ES2020",
+		"checkJs": false,
+		"allowJs": true,
+		"noEmit": true,
+		"paths": {
+			"*": ["*"]
+		}
+	},
+	"include": ["src"],
+	"exclude": ["node_modules", "build"]
+}

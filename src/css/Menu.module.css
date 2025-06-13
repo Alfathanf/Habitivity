@@ -1,0 +1,20 @@
+/* menu */
+.menu {
+	/* outline: 1px solid tomato; */
+	height: 100%;
+
+	display: flex;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: #f8f9fa;  /* Light gray background */
+	padding: 1.5rem;
+	border-radius: 8px;
+	box-shadow: 0 2px 4px rgb(255, 0, 0);
+}
+
+/* footer */
+.footer {
+	text-align: center;
+	color: gray;
+	margin-top: auto;
+}

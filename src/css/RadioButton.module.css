@@ -1,0 +1,27 @@
+.radioButton {
+	display: flex;
+	align-items: center;
+	gap: 0.6rem;
+	padding: 0.4rem 0.8rem;
+	
+	background-color: var(--bg-color-primary);
+	border-radius: var(--border-radius-secondary);
+	border: 2px solid var(--bg-color-tertiary);
+}
+
+.radioButton.selected {
+	border-color: dodgerblue;
+	background-color: var(--bg-color-secondary);
+}
+
+.indicator {
+	width: 1rem;
+	height: 1rem;
+	border-radius: 50%;
+	border: 2px solid var(--bg-color-tertiary);
+}
+
+.selected .indicator {
+	border-color: dodgerblue;
+	background-color: dodgerblue;
+} 

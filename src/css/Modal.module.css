@@ -1,0 +1,79 @@
+.modal {
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+
+	display: flex;
+	flex-direction: column;
+
+	background-color: var(--bg);
+
+	padding-bottom: 0;
+	z-index: 129;
+}
+
+/* header */
+.header {
+	height: var(--header-height);
+	display: flex;
+	align-items: center;
+	gap: 1rem;
+	flex-shrink: 0;
+	padding: 0 1rem;
+}
+
+.backButton {
+	background: none;
+	border: none;
+	color: #666;
+	font-size: 1.8rem;
+	cursor: pointer;
+	padding: 0.3rem;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	transition: color 0.2s;
+}
+
+.backButton:hover {
+	color: #5FE394;
+}
+
+/* title */
+.title {
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	font-size: 1.2rem;
+	color: #333;
+}
+
+/* close btn */
+/* .header button svg {
+	transform: rotate(45deg);
+} */
+
+.header svg {
+	width: 1.6rem;
+	height: 1.6rem;
+	transform: rotate(180deg);
+	stroke-width: 20;
+	flex-shrink: 0;
+}
+
+/* childrenWrapper */
+.childrenWrapper {
+	height: 100%;
+	padding: 1rem;
+	padding-top: 0;
+	overflow-y: scroll;
+}
+
+@media screen and (min-width: 576px) {
+	.modal {
+		width: var(--app-width);
+		margin: 0 auto;
+	}
+}
